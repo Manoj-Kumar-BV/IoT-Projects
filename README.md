@@ -3,7 +3,7 @@
 This repository contains various IoT-based projects implemented using **ESP32** and different sensors. These projects aim to provide real-world smart solutions, from home automation to environmental monitoring.
 
 ## Table of Contents
-- [Smart Lighting](#smart-lighting)
+- [Smart Lighting](#Smart_Lighting)
 - [Smart Parking System](#smart-parking-system)
 - [Intrusion Detection System](#intrusion-detection-system)
 - [Weather Monitoring and Reporting Bot](#weather-monitoring-and-reporting-bot)
