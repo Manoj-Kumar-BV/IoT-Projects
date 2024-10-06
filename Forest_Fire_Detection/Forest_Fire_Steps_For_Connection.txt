@@ -1,0 +1,16 @@
+Components Required:
+	ESP32 board (with built-in LED)
+	MQ-2 Gas Sensor (4 pins: VCC, GND, AO, DO)
+	1 external LED
+	Breadboard
+	Jumper wires
+
+MQ-2 Gas Sensor:
+	VCC (Power pin): Connect the VCC pin of the MQ-2 sensor to the 3.3V pin on the ESP32.
+	GND (Ground pin): Connect the GND pin of the MQ-2 sensor to the GND pin on the ESP32.
+	AO (Analog Output): Connect the AO pin of the MQ-2 sensor to GPIO 34 (analog input pin) on the ESP32.
+	DO (Digital Output): (Optional) If you want to use the digital output feature, you can connect the DO pin to any available GPIO pin. 
+
+External LED:
+	Anode (longer leg): Connect the anode of the external LED to GPIO 5 on the ESP32.
+	Cathode (shorter leg): Connect the cathode of the external LED to GND on the ESP32.

@@ -1,0 +1,14 @@
+Components Required:
+	ESP32
+	DHT11 Sensor
+	Soil Moisture Sensor
+
+Soil Moisture Sensor to ESP32:
+	VCC (Power) pin of the soil moisture sensor to the 3.3V pin on the ESP32.
+	GND (Ground) pin of the soil moisture sensor to the GND pin on the ESP32.
+	Analog output pin (A0) of the soil moisture sensor to the GPIO34 pin on the ESP32 (this is defined as MOISTURE_PIN in the code).
+
+DHT11 Sensor to ESP32:
+	VCC (Power) pin of the DHT11 sensor to the 3.3V pin on the ESP32.
+	GND (Ground) pin of the DHT11 sensor to the GND pin on the ESP32.
+	Data (Signal) pin of the DHT11 sensor to the GPIO27 pin on the ESP32 (this is defined as DHT_PIN in the code).

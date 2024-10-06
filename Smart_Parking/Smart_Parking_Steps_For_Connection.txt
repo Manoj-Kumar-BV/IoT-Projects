@@ -1,0 +1,10 @@
+Components Required:
+	ESP32 board (with built-in LED)
+	2 IR Sensors
+	Jumper wires
+
+IR Sensor:
+	Connect the VCC pin of the IR sensor to the 3.3V pins on the ESP32.
+	Connect the GND pin of the IR sensor to the GND pins on the ESP32.
+	Connect the OUT pin (analog output) of the IR sensor-1 to GPIO 34 on the ESP32.
+	Connect the OUT pin (analog output) of the IR sensor-2 to GPIO 35 on the ESP32.

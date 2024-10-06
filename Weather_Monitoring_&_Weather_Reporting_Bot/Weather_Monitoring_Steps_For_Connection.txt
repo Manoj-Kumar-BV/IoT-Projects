@@ -1,0 +1,12 @@
+Components Required:
+	ESP32 board
+	DHT11 sensor (3 pins: VCC, GND, and DATA)
+	Jumper wires
+
+DHT11 Sensor:
+	Connect the VCC pin of the DHT11 sensor to the 3.3V pin on the ESP32.
+	Connect the GND pin of the DHT11 sensor to the GND pin on the ESP32.
+	Connect the DATA pin of the DHT11 sensor to GPIO 15 on the ESP32 (or any other GPIO pin).
+
+ESP32:
+	Ensure that your ESP32 is powered via USB or external power, as per your project setup.

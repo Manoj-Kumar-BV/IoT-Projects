@@ -1,0 +1,18 @@
+Components Required:
+	ESP32 board (with built-in LED)
+	LDR sensor (3 pins: VCC, GND, and OUT)
+	1 external LED
+	Breadboard
+	Jumper wires
+
+LDR Sensor:
+	Connect the VCC pin of the LDR sensor to the 3.3V pin on the ESP32.
+	Connect the GND pin of the LDR sensor to the GND pin on the ESP32.
+	Connect the OUT pin (analog output) of the LDR sensor to GPIO 34 on the ESP32.
+
+External LED:
+	Connect the anode (longer leg) of the external LED to GPIO 23 (LED_PIN2) on the ESP32.
+	Connect the cathode (shorter leg) of the LED to GND on the ESP32.
+
+Built-in LED (GPIO 2):
+	The built-in LED on the ESP32 is already connected to GPIO 2. No additional wiring is needed for this.

@@ -1,0 +1,14 @@
+Components Required:
+	ESP32 board
+	PIR Motion Sensor
+	1 LED
+	Jumper wires
+
+PIR Sensor:
+	Connect VCC pin of PIR sensor to 3.3V on ESP32
+	Connect GND pin of PIR Sensor to GND on ESP32
+	Connect OUT pin of PIR  to GPIO 34 on ESP32
+
+LED:
+	Anode (long leg) to GPI O5 on ESP32
+	Cathode (short leg) to GND with a suitable resistor (e.g., 220Ω)
