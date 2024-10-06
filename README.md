@@ -1,3 +1,5 @@
+---
+
 # IoT Projects
 
 This repository contains various IoT-based projects implemented using **ESP32** and different sensors. These projects aim to provide real-world smart solutions, from home automation to environmental monitoring.
@@ -8,8 +10,9 @@ This repository contains various IoT-based projects implemented using **ESP32** 
 - [Intrusion Detection System](./Intrusion_Detection)
 - [Weather Monitoring and Reporting Bot](./Weather_Monitoring_&_Reporting_Bot)
 - [Smart Irrigation System](./Smart_Irrigation)
-- [Forest Fire Detection System](./Forest_Fire-Detection)
+- [Forest Fire Detection System](./Forest_Fire_Detection)
 - [Installation](#installation)
+- [Blynk and Firebase Setup](#blynk-and-firebase-setup)
 
 ## Projects Overview
 
@@ -77,6 +80,30 @@ A system for detecting forest fires in real time using a **temperature sensor**,
 2. Open the specific project folder in Arduino IDE.
 3. Connect the ESP32 to your system and upload the project.
 
+## Blynk and Firebase Setup
+
+### Blynk Setup
+1. **Create a Blynk Account**: Download the Blynk app from the [App Store](https://apps.apple.com/us/app/blynk-iot/id1005055708) or [Google Play](https://play.google.com/store/apps/details?id=cc.blynk).
+2. **Create a New Project**: 
+   - Select your device (ESP32) and connection type (WiFi).
+   - Note down the **Auth Token** sent to your email.
+3. **Add Widgets**: Add the necessary widgets (buttons, displays, etc.) to control your project. Configure the widgets to match your code.
+
+### Firebase Setup
+1. **Create a Firebase Account**: Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
+2. **Enable Realtime Database**: 
+   - In the Firebase Console, navigate to the **Database** section.
+   - Click on **Create Database** and choose **Start in Test Mode**.
+3. **Get Database URL**: Note the Realtime Database URL for use in your code.
+4. **Add Firebase to Your Project**: 
+   - In the Firebase Console, go to Project Settings, then to the **Service accounts** tab.
+   - Click on **Generate new private key**. Save the JSON file securely.
+
+### Combining Blynk and Firebase in Your Code
+- Ensure you have included the required libraries for both Blynk and Firebase in your Arduino sketch.
+- Use the Auth Token from Blynk and the Database URL along with Firebase credentials in your code to establish connections.
+
 ## Contributing
 Feel free to submit issues and pull requests if you find bugs or want to add new features. Contributions are welcome!
+
 ---
