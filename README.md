@@ -10,8 +10,6 @@ This repository contains various IoT-based projects implemented using **ESP32** 
 - [Smart Irrigation System](#smart-irrigation-system)
 - [Forest Fire Detection System](#forest-fire-detection-system)
 - [Installation](#installation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Projects Overview
 
