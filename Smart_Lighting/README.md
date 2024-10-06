@@ -29,4 +29,5 @@ The LDR sensor detects ambient light levels, and based on the readings, the syst
 
 ## Usage
 This project can be used in various applications, such as smart home lighting systems, automated street lighting, and indoor lighting management based on natural light availability.
+
 ---
